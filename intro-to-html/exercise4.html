@@ -1,0 +1,164 @@
+<style>
+    .button-basic {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 8px;
+        padding-left: 8px;
+        margin-left: 16px;
+        margin-right: 16px;
+
+    }
+    .button-green {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 10px;
+        transition: padding 0.3s;
+        cursor: pointer;
+
+    }
+
+    .button-green:hover {
+        padding: 32px;
+
+    }
+
+    .button-3d {
+        background-color: green;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 8px;
+        padding-left: 8px;
+        border: none;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.20);
+        transition: box-shadow 0.15s;
+    }
+
+    .button-3d:active {
+        box-shadow: none;
+        margin-top: 3px;
+        margin-left: 3px;
+    }
+
+</style>
+
+
+<button class="button-basic">Back</button>
+
+<a>1</a>
+<a>2</a>
+<a>3</a>
+<a>4</a>
+<a>5</a>
+
+<button class="button-basic">Next</button>
+
+<br><br>
+
+<button class="button-green">Click me</button> 
+
+<br><br>
+
+<button class="button-3d">Shadow</button> 
+
+<br><br><br>
+
+
+<!-- Correction. A link can have styles too! -->
+
+<style>
+    .back-button {
+      margin-right: 8px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 16px;
+    }
+  
+    .search-result {
+      margin-left: 4px;
+      margin-right: 4px;
+      font-size: 18px;
+    }
+  
+    .next-button {
+      margin-left: 8px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 16px;
+    }
+  </style>
+  
+  <button class="back-button">Back</button>
+  <a class="search-result" href="https://google.com">1</a>
+  <a class="search-result" href="https://google.com">2</a>
+  <a class="search-result" href="https://google.com">3</a>
+  <a class="search-result" href="https://google.com">4</a>
+  <a class="search-result" href="https://google.com">5</a>
+  <button class="next-button">Next</button>
+
+
+<br><br><br>
+
+<!-- Correction. Each padding should have a transition and it should have been slower -->
+
+  <style>
+    .stretch-button {
+      background-color: green;
+      color: white;
+      border: none;
+      font-size: 18px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 15px;
+      padding-right: 15px;
+      cursor: pointer;
+      transition: padding-top 1s,
+        padding-bottom 1s,
+        padding-left 1s,
+        padding-right 1s;
+    }
+  
+    .stretch-button:hover {
+      padding-top: 18px;
+      padding-bottom: 18px;
+      padding-left: 36px;
+      padding-right: 36px;
+    }
+  </style>
+  
+  <button class="stretch-button">
+    Stretch
+  </button>
+
+
+
+ <br><br><br>
+
+  <!-- Correction. Add some margin to the active state -->
+
+
+  <style>
+    .shadow-button {
+      background-color: green;
+      color: white;
+      border: none;
+      font-size: 18px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 16px;
+      padding-right: 16px;
+      cursor: pointer;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    }
+  
+    .shadow-button:active {
+      margin-top: 3px;
+      margin-left: 3px;
+      box-shadow: none;
+    }
+  </style>
+  
+  <button class="shadow-button">
+    Shadow
+  </button>
